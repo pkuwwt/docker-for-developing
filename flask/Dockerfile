@@ -17,15 +17,22 @@ RUN pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple \
 		flask \
 		psycopg2 \
 		pymysql \
-		flask-sqlalchemy \
-		flask-rest-jsonapi \
-		flask-restful \
-		flask-restplus \
-		flask-apispec \
-		flask_testing \
-		flask-script \
-		flask-migrate \
-		flask-bcrypt \
+	flask-sqlalchemy \
+	flask-restful \
+	flask-restplus \
+	flask-bcrypt \
+	flask-migrate \
+	flask-script \
+	flask_testing \
+	flask-session \
+	flask-user \
+	flask-login \
+	flask-rest-jsonapi \
+	flask-apispec \
+	flask-httpauth \
+	flask-security \
+	itsdangerous \
+	passlib \
 		pyjwt \
 		jsonschema \
 		jinja2 \
@@ -40,7 +47,10 @@ RUN pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple \
 		pillow \
 		rq \
 		redis \
-		shapely
+		shapely \
+		pytest \
+		gdal2mbtiles \
+		flask-oauthlib
 
 ADD src /usr/src
 
